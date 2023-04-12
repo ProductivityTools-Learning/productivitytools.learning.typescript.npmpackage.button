@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "jsx": "react",
+      "declaration": true,
+      "esModuleInterop": true,
+      "outDir": "dist/esm",
+      "target": "es6",
+      "module": "es6",
+      "moduleResolution": "node",
+      "sourceMap": true
+
+    },
+    "include": ["src/**/*.ts","src/**/*.tsx"]
+  }
+  

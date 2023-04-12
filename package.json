@@ -1,0 +1,40 @@
+{
+  "name": "productivitytools.learning.typescript.npmpackage.button",
+  "version": "1.0.0",
+  "description": "\"Buton in typescript example\"",
+  "main": "dist/cjs/index.js",
+  "module" :"dist/esm/index.js",
+  "files":["dist"],
+  "scripts": {
+    "build": "rm -rf dist/ && npm run build:esm && npm run build:cjs",
+    "build:esm":"tsc",
+    "build:cjs":"tsc --module CommonJS --outDir dist/cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProductivityTools-Learning/productivitytools.learning.typescript.npmpackage.button.git"
+  },
+  "keywords": [
+    "example",
+    "typescript"
+  ],
+  "author": "Pawel Wujczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProductivityTools-Learning/productivitytools.learning.typescript.npmpackage.button/issues"
+  },
+  "homepage": "https://github.com/ProductivityTools-Learning/productivitytools.learning.typescript.npmpackage.button#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.34",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
+
+  }
+}
