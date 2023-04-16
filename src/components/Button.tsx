@@ -14,8 +14,9 @@ export const Button: React.FunctionComponent<IButtonProps> = (props) => {
   if (color) _style.color = color;
 
   return (
-    <button style={_style} {...props}>
-      {children}
-    </button>
+    <span>e3d</span>
+    // <button style={_style} {...props}>
+    //   <span>#</span>
+    // </button>
   );
 };

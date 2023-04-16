@@ -73,3 +73,5 @@ Add index.js with exports and
 ```
 npm run build
 ```
+
+https://youtu.be/V_5ImTOmMh0?t=958
